@@ -1,5 +1,3 @@
-#include <systemc.h>
-
 #ifndef _SC_UTIL_
 #define _SC_UTIL_
 
