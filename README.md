@@ -13,7 +13,7 @@ Include the following directory in the build command.
 ```
 sc-utils/include
 ```
-#### Example
+#### Ex)
 ```
 gcc -I sc-utils/include -I <systemc_install_dir> <file> <option>
 ```
@@ -23,7 +23,7 @@ Output hierachical structure
 ```
 print_hierarchy();
 ```
-#### Example
+#### Ex)
 ```c
 #include <systemc.h>
 #include "sc-utils.h"
