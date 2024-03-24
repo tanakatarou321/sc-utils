@@ -13,6 +13,10 @@ Include the following directory in the build command.
 ```
 sc-utils/include
 ```
+#### Example
+```
+gcc -I sc-utils/include -I <systemc_install_dir> <file> <option>
+```
 ## Functions
 ### print_hierarch()
 Output hierachical structure
