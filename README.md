@@ -1,24 +1,32 @@
 # sc-utils
 This is a utility that can be used in the SystemC code.
 
-# Download
-You can access the sc-utils Git repository from [here](https://github.com/tanakatarou321/sc-utils).
+## Download
+You can download the sc-utils from Git repository.
+```
+git clone https://github.com/tanakatarou321/sc-utils
+```
 
-# Usage
-## Setup
+## Usage
+### Setup
 Add include directory
 ```
 sc-utils/include
 ```
-## build
-Include below
-```
+## Example
+```c
+#include <systemc.h>
 #include "sc-utils.h"
+int sc_main(int argc, char* argv[]) {
+    print_hierarchy();
+
+    return 0;
+}
 ```
 
-# Functions
-## print_hierarch()
+## Functions
+### print_hierarch()
 Output hierachical structure
 ```
-print_hierarch()
+print_hierarchy();
 ```

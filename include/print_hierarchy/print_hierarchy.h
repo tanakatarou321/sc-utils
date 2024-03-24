@@ -1,5 +1,5 @@
+#ifndef _PRINT_HIERARCHY_
 #include <systemc.h>
-#ifdef _PRINT_HIERARCHY_
 #define _PRINT_HIERARCHY_
 void _print_hierarchy(sc_object* parent){
     std::cout << parent->name() << "," << parent->kind() << std::endl;
