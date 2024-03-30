@@ -21,14 +21,14 @@ gcc -I sc-utils/include -I <systemc_install_dir> <file> <option>
 ### print_hierarch()
 Output hierachical structure
 ```
-print_hierarchy();
+sc_utils::print_hierarchy();
 ```
 #### Ex)
 ```c
 #include <systemc.h>
 #include "sc-utils.h"
 int sc_main(int argc, char* argv[]) {
-    print_hierarchy();  // Output hierarcal structure
+    sc_utils::print_hierarchy();  // Output hierarcal structure
     return 0;
 }
 ```
